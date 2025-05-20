@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio - João Eduardo</title>
+    <title>Sobre Mim - João Eduardo</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -14,7 +14,7 @@
           <nav>
              <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre mim</a></li>
+                <li><a href="sobre.html" class="ativo">Sobre mim</a></li>
                 <li><a href="projetos.html">Projetos</a></li>
              </ul>
            </nav>
@@ -22,27 +22,32 @@
     </header>
     
     <main class="container">
-        <section id="sobre" class="centered-section">
+        <section id="sobre">
             <h2>Sobre mim</h2>
             <p>Olá, Meu nome é João Eduardo, sou estudante de Análise e Desenvolvimento de Software Multiplataforma na Fatec de São José dos Campos. Tenho 18 anos e sou apaixonado por tecnologia e jogos estou sempre curioso para aprender algo novo. Atualmente, estou desenvolvendo projetos pessoais para ganhar experiência prática e construir uma base sólida na área.</p>
         </section>
         
-        <section id="curriculo" class="centered-section">
+        <section id="curriculo">
             <h2>Currículo</h2>
+            <div class="download-curriculo">
+                <a href="assets/docs/Currículo - João Eduardo.pdf" download class="botao-github">
+                    <i class="fas fa-download"></i> Baixar Currículo
+                </a>
+            </div>
             <h3>Formação Acadêmica</h3>
             <ul>
-                <li>Cursei o Ensino Médio - Colégio Franciscano Nossa Senhora Aparecida (2022-2024)  </li>
+                <li>Cursei o Ensino Médio - Colégio Franciscano Nossa Senhora Aparecida (2022-2024)</li>
                 <li>Cursando Análise e Desenvolvimento de Software Multiplataforma - Fatec SJC (2025-2028)</li>
             </ul>
-            <h3>Certificações</h3>
+            <h3>Certificados</h3>
             <ul>
-                <li> Certificação de Algoritimo e Programação - SENAI</li>
-                <li> Certificação de Participação da 2° Simulação da ONU - Colégio Franciscano Nossa Senhora Aparecida</li>
-                <li> Certificação das 24° a 26° Olimpída Brasileira de Astronomia e Astronáutica</li>
+                <li>Certificado em Algoritimo e Programação - SENAI (2022)</li>
+                <li>Certificado de Participação da 2° Simulação da ONU - Colégio Franciscano Nossa Senhora Aparecida (2023)</li>
+                <li>Certificado das 24° a 26° Olimpíada Brasileira de Astronomia e Astronáutica</li>
             </ul>
         </section>
         
-        <section class="centered-section">
+        <section id="habilidades">
             <h2>Habilidades</h2>
             <div class="habilidades-container">
                 <div class="soft-skills">
@@ -69,52 +74,46 @@
             </div>
         </section>
         
-        <section class="centered-section">
-            <h2 class="titulo-centralizado">Tecnologias que estou aprendendo</h2>
+        <section id="tecnologias">
+            <h2>Tecnologias que estou aprendendo</h2>
             <div class="tecnologias-container">
               <div class="tecnologia">
-                <img src="assets/images/html-icon.webp" alt="HTML Icon">
+                <img src="assets/images/html-icon.webp" alt="HTML">
                 <span>HTML</span>
               </div>
               <div class="tecnologia">
-                <img src="assets/images/css-icon.webp" alt="CSS Icon">
+                <img src="assets/images/css-icon.webp" alt="CSS">
                 <span>CSS</span>
               </div>
               <div class="tecnologia">
-                <img src="assets/images/python-icon.webp" alt="Python Icon">
+                <img src="assets/images/python-icon.webp" alt="Python">
                 <span>Python</span>
               </div>
               <div class="tecnologia">
-                <img src="assets/images/flask-icon.png" alt="Flask Icon">
+                <img src="assets/images/flask-icon.png" alt="Flask">
                 <span>Flask</span>
               </div>
               <div class="tecnologia">
-                <img src="assets/images/mysql-icon.png" alt="MySQL Icon">
+                <img src="assets/images/mysql-icon.png" alt="MySQL">
                 <span>MySQL</span>
               </div>
-            </div>
-        </section>
-        
-        <section id="Contatos" class="centered-section">
-            <h2>Contatos</h2>
-            <div class="contatos-icones">
-                <a href="https://github.com/joao-ed252" target="_blank">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-                
-                <a href="https://www.linkedin.com/in/joão-eduardo-o-9110332a2/" target="_blank">
-                    <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
-                
-                <a href="mailto:joaoeduardooliveirasantos896@gmail.com">
-                    <i class="fas fa-envelope"></i> E-mail
-                </a>
             </div>
         </section>
     </main>
     
     <footer>
         <div class="container">
+            <div class="contatos-footer">
+                <a href="https://github.com/joao-ed252" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/joão-eduardo-o-9110332a2/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:joaoeduardooliveirasantos896@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
             <p>&copy; 2025 João Eduardo. Todos os direitos reservados.</p>
             <p>Desenvolvido por João Eduardo</p>
         </div>
